@@ -1,0 +1,7 @@
+node_modules
+karma.conf.js
+node_modules/**/*
+coverage/**/*
+gulp/**/*
+flow/**/*
+dest/**/*
