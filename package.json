@@ -1,5 +1,5 @@
 {
-  "name": "intel-big-differ",
+  "name": "@mfl/big-differ",
   "version": "1.0.0",
   "description": "Diffing components for angular",
   "main": "dest/source/big-differ-module.js",
@@ -11,7 +11,7 @@
     "jscs": "jscs .",
     "eslint": "eslint ./"
   },
-  "author": "IML Team",
+  "author": "MFL Team",
   "license": "MIT",
   "pre-commit": [
     "jscs",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.intel.com/IML/big-differ.git"
+    "url": "https://github.intel.com/MFL/big-differ.git"
   },
   "publishConfig": {
-    "registry": "https://ubit-artifactory-or.intel.com/artifactory/api/npm/iml-npm-local"
+    "access": "public"
   },
   "dependencies": {},
   "devDependencies": {
@@ -46,7 +46,7 @@
     "gulp-babel": "6.1.2",
     "gulp-less": "3.0.5",
     "gulp-ng-annotate": "2.0.0",
-    "intel-jasmine-n-matchers": "2.1.1",
+    "@mfl/jasmine-n-matchers": "2.1.1",
     "jasmine-core": "2.4.1",
     "jscs": "2.10.1",
     "karma": "0.13.21",
